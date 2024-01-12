@@ -1,0 +1,20 @@
+:root {
+  /* Mode 1 */
+  /* numbers */
+  --center-piece-small: 28rem;
+  --center-piece-medium: 52.5rem;
+  --center-piece-large: 65rem;
+  --corner-radius-small: 0.1875rem;
+  --corner-radius-medium: 0.375rem;
+  --corner-radius-large: var(--12, 0.75rem);
+  --corner-radius-full: 624.9375rem;
+  --spacing-2x-small: var(--2, 0.125rem);
+  --spacing-x-small: var(--4, 0.25rem);
+  --spacing-small: 0.375rem;
+  --spacing-medium: var(--8, 0.5rem);
+  --spacing-large: var(--12, 0.75rem);
+  --spacing-x-large: var(--16, 1rem);
+  --spacing-2x-large: var(--24, 1.5rem);
+  --spacing-3x-large: var(--32, 2rem);
+  --spacing-4x-large: var(--40, 2.5rem);
+}

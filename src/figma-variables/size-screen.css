@@ -1,0 +1,76 @@
+[data-theme="Mobile"] {
+  /* numbers */
+  --container-max-width-container: 624.9375rem;
+  --container-max-width-sub-container: 624.9375rem;
+  --container-normal-padding-left: 1rem;
+  --container-normal-padding-right: 1rem;
+  --container-normal-padding-bottom: 2.5rem;
+  --container-normal-padding-top: 3.5rem;
+  --container-tabs-padding-left: 1rem;
+  --container-tabs-padding-right: 1rem;
+  --container-tabs-padding-bottom: 2.5rem;
+  --container-tabs-padding-top: 6.5rem;
+  --display-screen-width: 23.4375rem;
+  --display-screen-height: 47.8125rem;
+  --margin-left: 0rem;
+  --margin-right: 0rem;
+  --margin-top: 2.75rem;
+  --margin-bottom: 5.5rem;
+}
+[data-theme="Tablet"] {
+  /* numbers */
+  --container-max-width-sub-container: 42.5rem;
+  --container-max-width-container: 624.9375rem;
+  --container-normal-padding-left: 1.5rem;
+  --container-normal-padding-right: 1.5rem;
+  --container-normal-padding-bottom: 2.5rem;
+  --container-normal-padding-top: 3.5rem;
+  --container-tabs-padding-left: 1.5rem;
+  --container-tabs-padding-right: 1.5rem;
+  --container-tabs-padding-bottom: 2.5rem;
+  --container-tabs-padding-top: 6.5rem;
+  --display-screen-width: 52.125rem;
+  --display-screen-height: 74.625rem;
+  --margin-left: 0rem;
+  --margin-right: 0rem;
+  --margin-top: 0rem;
+  --margin-bottom: 5.5rem;
+}
+[data-theme="Desktop"] {
+  /* numbers */
+  --container-max-width-container: 67.5rem;
+  --container-max-width-sub-container: 624.9375rem;
+  --container-normal-padding-left: 1.5rem;
+  --container-normal-padding-right: 1.5rem;
+  --container-normal-padding-bottom: 2.5rem;
+  --container-normal-padding-top: 3.5rem;
+  --container-tabs-padding-left: 1.5rem;
+  --container-tabs-padding-right: 1.5rem;
+  --container-tabs-padding-bottom: 2.5rem;
+  --container-tabs-padding-top: 6.5rem;
+  --display-screen-height: 52rem;
+  --display-screen-width: 80rem;
+  --margin-bottom: 0rem;
+  --margin-right: 0rem;
+  --margin-top: 0rem;
+  --margin-left: 20rem;
+}
+[data-theme="Wide"] {
+  /* numbers */
+  --container-max-width-container: 81.125rem;
+  --container-max-width-sub-container: 624.9375rem;
+  --container-normal-padding-left: 1.5rem;
+  --container-normal-padding-right: 1.5rem;
+  --container-normal-padding-bottom: 2.5rem;
+  --container-normal-padding-top: 3.5rem;
+  --container-tabs-padding-left: 1.5rem;
+  --container-tabs-padding-right: 1.5rem;
+  --container-tabs-padding-bottom: 2.5rem;
+  --container-tabs-padding-top: 6.5rem;
+  --display-screen-height: 75rem;
+  --display-screen-width: 120rem;
+  --margin-bottom: 0rem;
+  --margin-right: 0rem;
+  --margin-top: 0rem;
+  --margin-left: 20rem;
+}

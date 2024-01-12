@@ -1,4 +1,5 @@
-[data-theme="Mode 1"] {
+:root {
+  /* Mode 1 */
   /* numbers */
   --2: 0.125rem;
   --4: 0.25rem;

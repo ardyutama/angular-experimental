@@ -1,0 +1,58 @@
+.Button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brand-button-foreground-default);
+  border-radius: var(--Corner-Radius-Medium, 6px);
+  box-shadow: 0px 1px 0px 0px rgba(27, 31, 35, 0.04);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.15px;
+  cursor: pointer;
+  width: 100%;
+}
+.size-small {
+  padding: 5px 8px;
+}
+
+.size-medium {
+  padding: 6px 12px;
+}
+
+.size-large {
+  padding: 10px 16px;
+}
+.variant-primary {
+  border: 1px solid var(--Brand-Button-Border-Default, rgba(31, 35, 40, 0.15));
+  background-color: var(--brand);
+  &:hover {
+    background: var(--components-control-brand--background-hover);
+  };
+  &:disabled {
+    background: var(--components-control-brand--background-disabled);
+    color: var(--components-control-brand--foreground-disabled)
+  };
+
+  &:active {
+    box-shadow: 0px 2.4px 0.3px 0px rgba(27, 31, 35, 0.15) inset;
+  }
+}
+
+.variant-secondary {
+  /* Styles for secondary variant */
+}
+
+.variant-danger {
+  /* Styles for danger variant */
+}
+
+.variant-invisible {
+  /* Styles for invisible variant */
+}
+
+.variant-success {
+  /* Styles for success variant */
+}

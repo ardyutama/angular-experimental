@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+}
+.content-container {
+  display: flex;
+  margin-top: 40px;
+  padding: 0 24px 0 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: var(--spacing-3x-large);
+  padding-bottom: 26px;
+  width: 100%;
+  height: 100%;
+  max-width: var(--center-piece-small);
+
+  h1 {
+    color: var(--foreground-default);
+    text-align: center;
+
+    /* Title/Large */
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 44.8px */
+  }
+
+  .teammates {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+
+    .avatar-stack {
+      display: flex;
+      align-items: flex-start;
+      overflow: hidden;
+    }
+    .avatar-stack select:not(:first-child) {
+      margin-left: -12px;
+    }
+  }
+
+  .invitator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-x-large);
+  }
+
+  app-separator {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-x-large);
+  width: 100%;
+  .current-email {
+    display: flex;
+    padding: 10px var(--spacing-small) 10px var(--spacing-large);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-medium);
+    align-self: stretch;
+    border-radius: var(--corner-radius-medium);
+    background: var(--background-subtle);
+  }
+  button-app {
+    align-self: stretch;
+  }
+}
+
+p {
+  color: var(--foreground-subtle);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.footer {
+  font-size: 12px;
+  a {
+    text-decoration-line: underline;
+    color: var(--foreground-subtle);
+  }
+}

@@ -1,0 +1,18 @@
+:host {
+  .label-version {
+    display: inline-flex;
+    padding: 1px 7px;
+    border-radius: 100px;
+    border: 1px solid var(--border-subtle);
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+  }
+
+  span {
+    color: var(--foreground-not-invertable-default);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 150% */
+  }
+}

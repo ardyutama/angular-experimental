@@ -1,12 +1,13 @@
 import { Component } from "@angular/core";
-import { ButtonComponent } from "../../shared/button/button.component";
+import { MandatoryComplianceComponent } from "src/app/shared/mandatory-compliance/mandatory-compliance.component";
+import { CompetencyImageComponent } from "src/app/shared/competency-image/competency-image.component";
 
 @Component({
     selector: 'showcase',
     templateUrl: './showcase.component.html',
-    styleUrls: ['./showcase.component.css'],
+    styleUrls: ['./showcase.component.scss'],
     standalone: true,
-    imports: [ButtonComponent]
+    imports: [MandatoryComplianceComponent, CompetencyImageComponent]
 })
 
 export class Showcase {

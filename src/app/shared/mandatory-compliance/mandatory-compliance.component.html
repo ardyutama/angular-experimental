@@ -1,0 +1,27 @@
+<div class="progress-card" [style.background-color]="progressBackgroundColor">
+    <div class="overlay-layout"></div>
+    <div class="content-container">
+        <div class="content">
+            <div class="mandatory-header">
+                <h4>{{title}} {{progress}}%</h4>
+                <p>{{description}} </p>
+            </div>
+            <app-gauge
+                [progress]="totalCompliance"
+                [progressBackgroundColor]="progressBackgroundColor"
+            ></app-gauge>
+        </div>
+        <div class="mandatory-footer">
+            <div class="dot">
+                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M13.2334 3.27083C14.4667 4.51083 15.1667 6.19751 15.1667 7.95085V8.00423C15.1667 11.6842 12.18 14.6709 8.50004 14.6709C6.73337 14.6709 5.03341 13.9641 3.78674 12.7175C2.53341 11.4641 1.83337 9.7709 1.83337 8.00423V7.95085C1.83337 6.19751 2.5334 4.51083 3.7734 3.27083C5.0134 2.03083 6.6934 1.33757 8.44674 1.33757H8.55334C10.3067 1.33757 11.9867 2.03083 13.2334 3.27083ZM6.32686 6.77939L6.33354 10.6661C6.33354 10.9461 6.11354 11.1661 5.83354 11.1661C5.5602 11.1661 5.33354 10.9459 5.33354 10.6726L5.32686 5.35946C5.32686 5.1528 5.4602 4.95949 5.6602 4.88616C5.8602 4.81949 6.08017 4.87932 6.2135 5.04599L8.5002 7.87281L10.7736 5.01929C10.9069 4.85929 11.1335 4.79264 11.3335 4.86597C11.5335 4.93264 11.6669 5.1261 11.6669 5.33277V10.6661C11.6669 10.9461 11.4402 11.1661 11.1669 11.1661C10.8935 11.1661 10.6669 10.9461 10.6669 10.6661V6.75953L8.89351 8.97926C8.79351 9.09926 8.65354 9.16611 8.5002 9.16611C8.35354 9.16611 8.2069 9.09943 8.11357 8.98609L6.32686 6.77939Z"
+                        fill="#FA4549" />
+                </svg>
+            </div>
+            <p>{{completed}}/{{total}} Competencies</p>
+            ·
+            <a href={{href}}>See All</a>
+        </div>
+    </div>
+</div>

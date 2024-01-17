@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { WelcomePageModule } from './pages/welcome-page/welcome-page.module';
-import { WelcomePageComponent } from './pages/welcome-page/welcome-page.component';
+import { Showcase } from './pages/showcase/showcase.component';
 
 const routes: Routes = [
-  { path: '', component: WelcomePageComponent}
+  { path: '', component: Showcase}
 ];
 
 @NgModule({

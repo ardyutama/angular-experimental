@@ -1,0 +1,24 @@
+:host {
+    .competency-image {
+        width: 200px;
+        height: 124px;
+        flex-shrink: 0;
+        position: relative;
+        background: url('/assets/competency.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: var(--corner-radius-medium);
+    }
+
+    app-stats {
+        position: absolute;
+        left: 8px;
+        bottom: 8px;
+    }
+
+    app-label {
+        position: absolute;
+        right: 8px;
+        bottom: 8px;
+    }
+}

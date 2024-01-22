@@ -20,5 +20,10 @@
       display: inline-flex;
       position: relative;
   }
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
  
 }

@@ -1,0 +1,9 @@
+<div class="trailing-visual">
+    <ng-container *ngIf="variant === 'icon'">
+      <!-- Replace 'icon' with the actual condition you need for displaying the icon -->
+      <ng-content select="icon"></ng-content>
+    </ng-container>
+    <ng-container *ngIf="variant === 'counter'">
+        <div class="counterLabel">{{counter}}</div>
+    </ng-container>
+  </div>

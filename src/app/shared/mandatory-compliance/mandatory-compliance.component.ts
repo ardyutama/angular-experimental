@@ -4,13 +4,13 @@ import { GaugeComponent, roundPercent } from '../gauge/gauge.component';
 @Component({
   selector: 'app-mandatory-compliance',
   templateUrl: './mandatory-compliance.component.html',
-  styleUrls: ['./mandatory-compliance.component.scss'],
+  styleUrls: ['./mandatory-compliance.component.css'],
   standalone: true,
   imports: [GaugeComponent]
 })
 export class MandatoryComplianceComponent {
   title = 'Mandatory compliance:'
-  completed = 33
+  completed = 0
   total = 56
   href = ""
   totalCompliance = this.completed / this.total;

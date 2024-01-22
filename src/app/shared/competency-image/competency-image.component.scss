@@ -9,7 +9,12 @@
         background-repeat: no-repeat;
         border-radius: var(--corner-radius-medium);
     }
+    .overlay-bw {
+        background: #000;
+        mix-blend-mode: color;
+    }
 
+    .overlay
     app-stats {
         position: absolute;
         left: 8px;

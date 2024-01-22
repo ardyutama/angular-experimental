@@ -1,0 +1,8 @@
+:host {
+    .counter-label {
+        display: inline-flex;
+        padding: var(--spacing-2x-small) 0px;
+        border-radius: var(--corner-radius-full) /* utility class: .circle */;
+        background: var(--labels-neutral-bg-subtle);
+    }
+}

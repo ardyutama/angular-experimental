@@ -1,8 +1,12 @@
 <div class="competency-image">
-    <app-stats>
-
-    </app-stats>
-    <app-label>
-        
-    </app-label>
+    <ng-container *ngif="progress !== 'default'">
+        <div class="overlay-bw"></div>
+        <div [attr.class]="progress"></div>
+    </ng-container>
+    <ng-container *ngIf="mandatory">
+        <app-stats> </app-stats>
+    </ng-container>
+    <ng-container *ngIf="version">
+        <app-label> </app-label>
+    </ng-container>
 </div>

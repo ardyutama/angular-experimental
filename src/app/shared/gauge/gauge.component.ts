@@ -1,4 +1,4 @@
-import { Component, HostBinding, Input, OnInit } from '@angular/core';
+import { Component, HostBinding, Input, OnInit, ViewEncapsulation } from '@angular/core';
 
 export function roundPercent(value: number): number {
   // This avoids displaying a misleading percentage such as 100% when they're
@@ -12,7 +12,7 @@ export function roundPercent(value: number): number {
   selector: 'app-gauge',
   templateUrl: './gauge.component.html',
   styleUrls: ['./gauge.component.css'],
-  standalone: true,
+  standalone: true
 })
 
 export class GaugeComponent {

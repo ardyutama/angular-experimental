@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="card-role-compliance">
+        <app-gauge [progress]="progress"></app-gauge>
+        <div class="description">
+            <p class="header">Haul Truck Coordinator</p>
+            <div class="small-description">
+                <div class="content">
+                    <img src="assets/icon/location.svg" alt="location">
+                    <p>{{location}}</p>
+                </div>
+                <div class="content">
+                    <img src="assets/icon/onProgress.svg" alt="onProgress">
+                    <p>{{current}}/{{total}} competencies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

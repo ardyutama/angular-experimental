@@ -1,6 +1,30 @@
 <div class="container">
-    <div class="content">
-        <app-mandatory-compliance></app-mandatory-compliance>
-        <app-competency-image></app-competency-image>
-    </div>
+  <div class="content">
+    <app-mandatory-compliance></app-mandatory-compliance>
+    <app-competency-image></app-competency-image>
+    <app-widget-layout>
+      <div card-header>
+        <app-box-head [showLeadingVisual]="true" variant="bold">
+          <img src="assets/icon/settings.svg" leading-visual />
+        </app-box-head>
+      </div>
+      <div card-content>
+        <app-card-role-compliance
+          location="Great Sandy Desert"
+          [current]="5"
+          [total]="10"
+        ></app-card-role-compliance>
+        <app-card-role-compliance
+          location="Great Sandy Desert"
+          [current]="5"
+          [total]="10"
+        ></app-card-role-compliance>
+        <app-card-role-compliance
+          location="Great Sandy Desert"
+          [current]="5"
+          [total]="10"
+        ></app-card-role-compliance>
+      </div>
+    </app-widget-layout>
+  </div>
 </div>

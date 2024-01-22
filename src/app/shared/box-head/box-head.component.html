@@ -1,0 +1,13 @@
+<div class="box-header-container {{variant}}">
+    <ng-container *ngIf="showLeadingVisual">
+        <ng-content select="[leading-visual]"></ng-content>
+    </ng-container>
+    <h4 class="title">{{title}}</h4>
+    <ng-container *ngIf="linkUrl">
+        <div>·</div>
+        <a [href]="linkUrl">See more</a>
+    </ng-container>
+    <div *ngIf="showTrailingVisual">
+        <ng-content select="[trailing-visual]"></ng-content>
+    </div>
+</div>

@@ -1,0 +1,127 @@
+/* Hero-style text for brand to product transition pages. Utilize Title (large) styles on narrow viewports. */
+@mixin text-style-display() {
+	font-size: 2.5rem;
+	font-family: "Inter";
+	font-weight: 500;
+	font-style: normal;
+	line-height: 140%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Page sections/sub headings, or less important object names in page titles (automated action titles, for example). Same line-height as title (medium). */
+@mixin text-style-subtitle() {
+	font-size: 1.25rem;
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 160%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Compact small font with a smaller line height of 16px. Use it for single-line scenarios, as the small sizing doesn’t pass accessibility requirements. */
+@mixin text-style-caption() {
+	font-size: 0.75rem;
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 133.33%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Page headings. Use title (medium) styles on narrow viewports. */
+@mixin text-style-title-large() {
+	font-size: 2rem;
+	font-family: "Inter";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 140%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Default page title. The 32px-equivalent line-height matches with button and other medium control heights. Great for page header composition. */
+@mixin text-style-title-medium() {
+	font-size: 1.25rem;
+	font-family: "Inter";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 150%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Uses the same size as body (large) with a heavier weight of semibold (600). */
+@mixin text-style-title-small() {
+	font-size: 1rem;
+	font-family: "Inter";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 150%;
+	text-decoration: none;
+	text-transform: none;
+}
+@mixin text-style-body-large() {
+	font-size: 1rem;
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 150%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Default UI font. Most commonly used for body text. */
+@mixin text-style-body-medium() {
+	font-size: 0.875rem;
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 142.85%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Small body text for discrete UI applications, such as helper, footnote text. Should be used sparingly across pages. Line-height matches Body (medium) at 20px. */
+@mixin text-style-body-small() {
+	font-size: 0.75rem;
+	font-family: "Inter";
+	font-weight: 400;
+	font-style: normal;
+	line-height: 166.66%;
+	text-decoration: none;
+	text-transform: none;
+}
+@mixin text-style-body-large-bold() {
+	font-size: 1rem;
+	font-family: "Inter";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 150%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Default UI font. Most commonly used for body text. */
+@mixin text-style-body-medium-bold() {
+	font-size: 0.875rem;
+	font-family: "Inter";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 142.85%;
+	text-decoration: none;
+	text-transform: none;
+}
+
+/* Small body text for discrete UI applications, such as helper, footnote text. Should be used sparingly across pages. Line-height matches Body (medium) at 20px. */
+@mixin text-style-body-small-bold() {
+	font-size: 0.75rem;
+	font-family: "Inter";
+	font-weight: 700;
+	font-style: normal;
+	line-height: 166.66%;
+	text-decoration: none;
+	text-transform: none;
+}
